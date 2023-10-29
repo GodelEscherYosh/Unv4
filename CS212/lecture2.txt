@@ -1,0 +1,88 @@
+// Lecture 2 The insides of C
+
+    To a computer, Data means lots of Binary Digits (bits)   
+        2 states;
+
+            1
+            0
+
+    //What is a Byte
+        -A group of 8
+
+    //Von Neumann Archetitecture
+
+            "Cycles"
+
+        Add, subtract, < Lots of math stuff>
+
+        if byte== 000
+        if byte == 001
+        if byte == 002
+
+        "Machine Code" provides basic instruction for the hardware to quote on quote "eat"
+
+
+    // Two Big Ideas for Code Translators  
+
+        ~Pre-processing (what Happens when your working on code)  <-- Compiler
+            -Programmer produeces file with programmer Code
+            -program is run sone time late
+
+        ~Just in time   (What happens when you're typing)   <-- Interpreter
+            -Code translator program runs
+            -Programmer types programmer code into keyboard
+            -Code translator convers programmer code "just in time" 
+            and makes machine Code
+            -Code translator sends machine code to computer to run
+
+
+    //Example of Python 
+
+        >>> 4+6
+
+        ^^^^    
+        This is a string in python everything is a string
+
+        -It sends tashe number and the opcode to + to the CPU as an instruction an Interpreter
+        -The CPU does the math
+        -Then it prints it
+        -Typeing 4+6 into terminal actually reqires thousands of instructions (or more_ to carry out the 1 instruction you wanted)
+
+
+    //Let's talk about C
+
+        statemnts can be concluded by semi colins ';'
+ypes
+    //More C: variable types
+        when you deeclare variables, you have to declare their types (as provided by the CPU)
+
+        -You have to tell the compiler the varibale types
+
+    //Ever function lives in its own 'scope' and it lives in it's own scope
+
+
+    int foo1() 
+    {
+
+        int X = 3;
+        return X;
+
+    }
+
+    int main () 
+    {
+        int Y = foo1()
+        printf("X is %d\n", X)
+    }
+
+
+You can make a scope whitin a scope
+
+int main ()
+{
+    int X = 0;
+    while (x < 83)
+        X += 5;
+        x += 2;
+    printf("X is %")
+}

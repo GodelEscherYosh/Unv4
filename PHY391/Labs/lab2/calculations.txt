@@ -1,0 +1,25 @@
+--- www.berkeley.edu ping statistics ---
+100 packets transmitted, 100 received, 0% packet loss, time 99147ms
+rtt min/avg/max/mdev = 17.733/17.912/18.455/0.218 ms
+
+--- www.cern.ch ping statistics ---
+100 packets transmitted, 100 received, 0% packet loss, time 99127ms
+rtt min/avg/max/mdev = 155.745/156.161/168.255/1.280 ms
+
+
+--- www.harvard.edu ping statistics ---
+100 packets transmitted, 100 received, 0% packet loss, time 99144ms
+rtt min/avg/max/mdev = 3.760/14.141/1011.468/100.236 ms
+
+--- www.sjtu.edu.cn ping statistics ---
+100 packets transmitted, 100 received, 0% packet loss, time 99082ms
+rtt min/avg/max/mdev = 213.493/214.091/243.257/2.942 ms
+
+
+--- www.tsinghua.edu.cn ping statistics ---
+100 packets transmitted, 100 received, 0% packet loss, time 99098ms
+rtt min/avg/max/mdev = 188.937/189.330/190.040/0.636 ms
+
+--- usm.cl ping statistics ---
+100 packets transmitted, 100 received, 0% packet loss, time 99110ms
+rtt min/avg/max/mdev = 188.025/188.345/189.351/0.576 ms
