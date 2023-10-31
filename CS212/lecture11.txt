@@ -1,0 +1,42 @@
+Lecture 11 | Data structures
+
+	Announcments:
+		Reading: Finishc chapter 3
+			-2H should be a very easy project
+			-2H, 2G.2 assigned today	
+			-2G.2 run it with val to make sure no memory leakage
+
+	Meghanto will be in India
+		-No OH tonight
+
+
+	Slide Repeat: Memory Segments
+		-Your program is ivided into 4 segments:
+	
+		Idea:
+			-You have a pointer to a function
+			-This pointer can change based on cicumstance
+			-when you call the function poitner, it is like calling a known function
+
+	Invoke a function pointer
+
+	EX:
+
+	Function call backs:
+
+		Libraries: Code super usefull too use.
+		Python world: Library is just a collection of functions
+		When you are writing your code as is, you run into conditions: "what do they want me to do?"
+			Call back: If you run into problem, call tih sfunction
+
+	From data structures:
+		-List
+		-Tuple
+		-Dictionary
+		-Set
+	-> A lot of these are from python
+	
+	Two key concepts
+		It organizes data
+		It enables efficient access
+	
